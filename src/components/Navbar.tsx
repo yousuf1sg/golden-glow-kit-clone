@@ -2,6 +2,7 @@
 import React, { useState } from 'react';
 import { Button } from '@/components/ui/button';
 import { Menu, X } from 'lucide-react';
+import { Link } from 'react-router-dom';
 
 const Navbar: React.FC = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -11,9 +12,9 @@ const Navbar: React.FC = () => {
       <div className="container mx-auto px-4 py-4">
         <div className="flex items-center justify-between">
           <div className="flex items-center">
-            <a href="/" className="flex items-center">
+            <Link to="/" className="flex items-center">
               <span className="text-2xl font-bold gold-gradient">PromoKit</span>
-            </a>
+            </Link>
           </div>
 
           {/* Desktop Navigation */}
@@ -22,6 +23,7 @@ const Navbar: React.FC = () => {
             <a href="#pricing" className="text-gray-300 hover:text-gold transition-colors">Pricing</a>
             <a href="#testimonials" className="text-gray-300 hover:text-gold transition-colors">Testimonials</a>
             <a href="#faqs" className="text-gray-300 hover:text-gold transition-colors">FAQ</a>
+            <Link to="/blog" className="text-gray-300 hover:text-gold transition-colors">Blog</Link>
           </div>
 
           <div className="hidden md:flex items-center space-x-4">
@@ -71,6 +73,13 @@ const Navbar: React.FC = () => {
               >
                 FAQ
               </a>
+              <Link 
+                to="/blog" 
+                className="text-gray-300 hover:text-gold transition-colors py-2"
+                onClick={() => setIsMenuOpen(false)}
+              >
+                Blog
+              </Link>
               <div className="pt-4 flex flex-col space-y-4">
                 <Button variant="link" className="justify-start text-gray-300 hover:text-gold">Login</Button>
                 <Button className="button-gold w-full">Get Started</Button>
