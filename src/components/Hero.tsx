@@ -9,19 +9,19 @@ const Hero: React.FC = () => {
       <div className="container mx-auto px-4">
         <div className="flex flex-col items-center text-center">
           <h1 className="gold-gradient gold-glow text-4xl md:text-6xl font-bold mb-6 max-w-3xl leading-tight">
-            Streamline Your Music Promotion Workflow
+            Supercharge Your Marketing with AI Tools
           </h1>
           <p className="text-gray-300 text-lg md:text-xl max-w-2xl mb-8">
-            The all-in-one platform for music tastemakers to collect, organize, 
-            and share new music submissions from artists and labels.
+            All-in-one platform with powerful AI tools to enhance your content creation, 
+            social media management, and digital marketing workflow.
           </p>
           <div className="flex flex-col sm:flex-row space-y-4 sm:space-y-0 sm:space-x-4">
             <Button className="button-gold text-lg px-8 py-6">
-              Start For Free
+              Try Free Tools
               <ArrowRight className="ml-2 h-5 w-5" />
             </Button>
             <Button variant="outline" className="button-outline text-lg px-8 py-6">
-              Watch Demo
+              Explore Tools
             </Button>
           </div>
           
@@ -34,8 +34,8 @@ const Hero: React.FC = () => {
                     <div className="w-16 h-16 rounded-full bg-gold/20 flex items-center justify-center mb-4">
                       <span className="text-gold text-xl">▶</span>
                     </div>
-                    <p className="text-gold text-lg font-medium">Dashboard Preview</p>
-                    <p className="text-gray-400 text-sm mt-2">Platform interface visualization</p>
+                    <p className="text-gold text-lg font-medium">AI Tools Dashboard</p>
+                    <p className="text-gray-400 text-sm mt-2">Powerful marketing tools at your fingertips</p>
                   </div>
                 </div>
               </div>

@@ -10,11 +10,11 @@ const CTA: React.FC = () => {
         <div className="bg-gradient-to-r from-dark-card via-dark-lighter to-dark-card rounded-lg p-8 md:p-16 border border-gold/20 shadow-[0_0_30px_rgba(245,203,92,0.1)] max-w-5xl mx-auto">
           <div className="text-center">
             <h2 className="text-3xl md:text-4xl font-bold mb-4">
-              <span className="gold-gradient gold-glow">Ready to Transform Your Promotion Workflow?</span>
+              <span className="gold-gradient gold-glow">Ready to Transform Your Marketing Strategy?</span>
             </h2>
             <p className="text-gray-300 text-lg max-w-2xl mx-auto mb-8">
-              Join thousands of music professionals who are streamlining their submission process
-              and growing their audience with PromoKit.
+              Join thousands of marketers who are enhancing their digital presence
+              and growing their audience with PromoterKit's AI tools.
             </p>
             <div className="flex flex-col sm:flex-row justify-center space-y-4 sm:space-y-0 sm:space-x-4">
               <Button className="button-gold text-lg px-8 py-6">

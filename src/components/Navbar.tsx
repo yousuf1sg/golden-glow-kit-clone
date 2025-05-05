@@ -13,12 +13,13 @@ const Navbar: React.FC = () => {
         <div className="flex items-center justify-between">
           <div className="flex items-center">
             <Link to="/" className="flex items-center">
-              <span className="text-2xl font-bold gold-gradient">PromoKit</span>
+              <span className="text-2xl font-bold gold-gradient">PromoterKit</span>
             </Link>
           </div>
 
           {/* Desktop Navigation */}
           <div className="hidden md:flex items-center space-x-8">
+            <Link to="/tools" className="text-gray-300 hover:text-gold transition-colors">Tools</Link>
             <a href="#features" className="text-gray-300 hover:text-gold transition-colors">Features</a>
             <a href="#pricing" className="text-gray-300 hover:text-gold transition-colors">Pricing</a>
             <a href="#testimonials" className="text-gray-300 hover:text-gold transition-colors">Testimonials</a>
@@ -45,6 +46,13 @@ const Navbar: React.FC = () => {
         {isMenuOpen && (
           <div className="md:hidden py-4 animate-fade-in">
             <div className="flex flex-col space-y-4">
+              <Link
+                to="/tools" 
+                className="text-gray-300 hover:text-gold transition-colors py-2"
+                onClick={() => setIsMenuOpen(false)}
+              >
+                Tools
+              </Link>
               <a 
                 href="#features" 
                 className="text-gray-300 hover:text-gold transition-colors py-2"

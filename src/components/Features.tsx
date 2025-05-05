@@ -1,37 +1,37 @@
 
 import React from 'react';
-import { Music, Inbox, BarChart3, Users, Globe, ShieldCheck } from 'lucide-react';
+import { Bot, MessageSquare, BarChart3, Users, Globe, ShieldCheck } from 'lucide-react';
 
 const featuresList = [
   {
-    icon: <Music className="w-10 h-10 text-gold" />,
-    title: "Submission Portal",
-    description: "Custom-branded portal for artists to send you their music directly."
+    icon: <Bot className="w-10 h-10 text-gold" />,
+    title: "AI Content Creation",
+    description: "Generate high-quality marketing copy, blog posts, and social media content with advanced AI."
   },
   {
-    icon: <Inbox className="w-10 h-10 text-gold" />,
-    title: "Organize Tracks",
-    description: "Sort, filter, and organize all your music submissions in one place."
+    icon: <MessageSquare className="w-10 h-10 text-gold" />,
+    title: "Social Media Assistant",
+    description: "Schedule posts, analyze engagement, and generate content ideas for all your social platforms."
   },
   {
     icon: <BarChart3 className="w-10 h-10 text-gold" />,
     title: "Analytics Dashboard",
-    description: "Get insights into your submission activity and engagement metrics."
+    description: "Track performance metrics across all your marketing campaigns with detailed insights."
   },
   {
     icon: <Users className="w-10 h-10 text-gold" />,
     title: "Team Collaboration",
-    description: "Invite team members to collaborate on reviewing submissions."
+    description: "Invite team members to collaborate on marketing projects and content creation."
   },
   {
     icon: <Globe className="w-10 h-10 text-gold" />,
-    title: "Multi-Platform Sharing",
-    description: "Easily share selected tracks across all your platforms."
+    title: "Multi-Platform Publishing",
+    description: "Publish content directly to all your social media platforms and websites."
   },
   {
     icon: <ShieldCheck className="w-10 h-10 text-gold" />,
-    title: "Secure Storage",
-    description: "All your music submissions are securely stored and backed up."
+    title: "Secure Data Management",
+    description: "All your marketing data is securely stored and protected with enterprise-grade security."
   }
 ];
 
@@ -41,10 +41,10 @@ const Features: React.FC = () => {
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
           <h2 className="text-3xl md:text-4xl font-bold mb-4">
-            <span className="gold-gradient gold-glow">Powerful Features</span>
+            <span className="gold-gradient gold-glow">Powerful AI Tools</span>
           </h2>
           <p className="text-gray-300 max-w-2xl mx-auto">
-            Everything you need to streamline your music submission and promotion workflow
+            Everything you need to streamline your digital marketing and content creation workflow
           </p>
         </div>
 
