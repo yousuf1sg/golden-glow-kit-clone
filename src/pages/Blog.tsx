@@ -18,57 +18,57 @@ interface BlogPost {
 const blogPosts: BlogPost[] = [
   {
     id: 1,
-    title: "10 Tips for Better Music Promotion",
-    excerpt: "Learn the best strategies to promote your music in today's digital landscape and stand out from the crowd.",
+    title: "10 AI Marketing Strategies That Actually Work",
+    excerpt: "Discover proven AI-powered marketing strategies that can dramatically improve your campaign performance and ROI.",
     date: "April 25, 2025",
     author: "Alex Johnson",
-    category: "Music Marketing",
-    image: "https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4?q=80&w=1470&auto=format&fit=crop"
+    category: "AI Marketing",
+    image: "https://images.unsplash.com/photo-1671726203454-88bf62cd8d68?q=80&w=1470&auto=format&fit=crop"
   },
   {
     id: 2,
-    title: "How to Organize Your Music Submissions Effectively",
-    excerpt: "A comprehensive guide to managing the flood of music submissions without losing your mind.",
+    title: "How to Create Effective Content with AI Tools",
+    excerpt: "A comprehensive guide to leveraging AI content generators while maintaining brand voice and audience engagement.",
     date: "April 18, 2025",
     author: "Samantha Lee",
-    category: "Workflow",
-    image: "https://images.unsplash.com/photo-1470225620780-dba8ba36b745?q=80&w=1470&auto=format&fit=crop"
+    category: "Content Creation",
+    image: "https://images.unsplash.com/photo-1677442136019-21780ecad995?q=80&w=1470&auto=format&fit=crop"
   },
   {
     id: 3,
-    title: "Building Relationships with Artists: A Label's Guide",
-    excerpt: "Discover how to create lasting and mutually beneficial relationships with the artists you work with.",
+    title: "Building Customer Relationships with AI Personalization",
+    excerpt: "Learn how to use AI to create personalized marketing experiences that resonate with individual customers.",
     date: "April 10, 2025",
     author: "Marcus Chen",
-    category: "Industry Tips",
-    image: "https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?q=80&w=1470&auto=format&fit=crop"
+    category: "Customer Engagement",
+    image: "https://images.unsplash.com/photo-1633613286991-611fe299c4be?q=80&w=1470&auto=format&fit=crop"
   },
   {
     id: 4,
-    title: "The Future of Music Distribution in 2025",
-    excerpt: "Exploring the evolving landscape of music distribution and what it means for artists and labels.",
+    title: "The Future of Digital Marketing in 2025",
+    excerpt: "Exploring emerging AI trends in digital marketing and how they're reshaping strategies for brands worldwide.",
     date: "April 5, 2025",
     author: "Jordan Smith",
     category: "Industry Trends",
-    image: "https://images.unsplash.com/photo-1514320291840-2e0a9bf2a9ae?q=80&w=1470&auto=format&fit=crop"
+    image: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?q=80&w=1470&auto=format&fit=crop"
   },
   {
     id: 5,
-    title: "Maximizing Your Reach with PromoKit's Analytics",
-    excerpt: "Learn how to use data-driven insights to improve your music promotion strategies.",
+    title: "Maximizing Your Campaign Reach with PromoterKit's Analytics",
+    excerpt: "Learn how to use data-driven insights from PromoterKit to optimize your marketing campaigns.",
     date: "March 28, 2025",
     author: "Taylor Rodriguez",
-    category: "PromoKit Features",
-    image: "https://images.unsplash.com/photo-1518609878373-06d740f60d8b?q=80&w=1470&auto=format&fit=crop"
+    category: "PromoterKit Features",
+    image: "https://images.unsplash.com/photo-1551434678-e076c223a692?q=80&w=1470&auto=format&fit=crop"
   },
   {
     id: 6,
-    title: "From Submission to Playlist: The Journey of a Track",
-    excerpt: "Follow the path a track takes from initial submission to getting featured on popular playlists.",
+    title: "From Draft to Campaign: The AI-Powered Marketing Workflow",
+    excerpt: "Follow the path your campaign takes from initial concept to fully deployed marketing assets using AI tools.",
     date: "March 20, 2025",
     author: "Jamie Wilson",
-    category: "Playlisting",
-    image: "https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4?q=80&w=1470&auto=format&fit=crop"
+    category: "Workflow",
+    image: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?q=80&w=1470&auto=format&fit=crop"
   }
 ];
 
@@ -112,11 +112,11 @@ const Blog: React.FC = () => {
         <div className="container mx-auto px-4">
           <div className="text-center mb-12">
             <h1 className="text-4xl md:text-5xl font-bold mb-4">
-              <span className="gold-gradient gold-glow">PromoKit Blog</span>
+              <span className="gold-gradient gold-glow">PromoterKit Blog</span>
             </h1>
             <p className="text-gray-300 text-lg max-w-3xl mx-auto">
-              Insights, tips, and news from the music promotion industry to help you streamline your workflow
-              and maximize your impact.
+              Insights, tips, and strategies for leveraging AI to enhance your marketing campaigns,
+              optimize your workflow, and maximize your business impact.
             </p>
           </div>
           
